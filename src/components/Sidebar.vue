@@ -2,7 +2,7 @@
   <div id="sidebar">
     <header>
       <h1 style="display: none;">Github Stars Manager</h1>
-      <a href="https://github.com/Monine/gitstars" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/louyongjiu/stars" target="_blank" rel="noopener noreferrer">
         <img src="../assets/app-name.png" alt="app name" class="app-name-img">
       </a>
     </header>
