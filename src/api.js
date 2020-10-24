@@ -6,9 +6,11 @@ axios.defaults.baseURL = 'https://api.github.com'
 
 axios.interceptors.request.use(config => {
   if (config.url.includes('http')) return config
-
-  config.url += config.url.includes('?') ? '&' : '?'
-  config.url += `access_token=${window._gitstars.accessToken}`
+  // config.url += config.url.includes('?') ? '&' : '?'
+  // config.url += `access_token=${window._gitstars.accessToken}`
+  if (window._gitstars.accessToken) {  // 判断是否存在token，如果存在的话，则每个http header都加上token
+    config.headers.Authorization = `token ${window._gitstars.accessToken}`
+  }
   return config
 }, err => {
   return Promise.reject(err)
