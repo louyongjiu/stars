@@ -3,7 +3,7 @@
     <div class="user-info">
       <a :href="user.html_url" target="_blank" rel="noopener noreferrer"><img :src="user.avatar_url" class="user-avatar"></a>
       <h1 class="user-name">
-        <a :href="`${user.html_url}?tab=repositories`" target="_blank" rel="noopener noreferrer">{{ user.name }}’s Starred Repositories</a>
+        <a :href="`${user.html_url}?tab=stars`" target="_blank" rel="noopener noreferrer">{{ user.name }}’s Starred Repositories</a>
       </h1>
     </div>
     <el-radio-group v-model="currentLanguage" size="mini" fill="#948aec" @change="handleChangeLanguage">
