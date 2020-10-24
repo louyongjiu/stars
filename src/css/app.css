@@ -18,6 +18,10 @@ a:hover {
   color: #7265e6;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 .vc-p {
   position: absolute;
   top: 50%;
