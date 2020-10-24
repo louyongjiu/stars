@@ -38,7 +38,7 @@
       </transition>
       <footer class="sidebar-footer">
         <span>Author&nbsp;:&nbsp;</span>
-        <h1 class="author"><a href="https://github.com/Monine" target="_blank" class="author-name" rel="noopener noreferrer">Monine</a></h1>
+        <h1 class="author"><a href="https://github.com/louyongjiu" target="_blank" class="author-name" rel="noopener noreferrer">Nines</a></h1>
       </footer>
     </div>
   </div>
