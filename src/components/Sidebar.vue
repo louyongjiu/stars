@@ -156,13 +156,14 @@ export default {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
   font-size: 14px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   color: #919191;
   background-color: #28343d;
 }
 
 .author {
   font-size: inherit;
+  font-weight: 600;
 }
 
 .author-name {

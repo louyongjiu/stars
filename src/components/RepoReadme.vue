@@ -75,7 +75,7 @@ export default {
   top: 45%;
   font-size: 36px;
   text-align: center;
-  font-weight: 700;
+  font-weight: 600;
   color: #d9d9d9;
 }
 
@@ -94,7 +94,7 @@ export default {
 .readme {
   font-size: 28px;
   margin: 0.5em;
-  font-weight: 700;
+  font-weight: 600;
 }
 
 .loader {

@@ -86,7 +86,7 @@ export default {
   justify-content: space-between;
   margin-top: 0.5em;
   font-size: 12px;
-  font-weight: 700;
+  font-weight: 600;
   color: #76d0a3;
 }
 
