@@ -6,7 +6,7 @@
         <a :href="`${user.html_url}?tab=repositories`" target="_blank" rel="noopener noreferrer">{{ user.name }}’s Starred Repositories</a>
       </h1>
     </div>
-    <el-radio-group v-model="currentLanguage" size="mini" @change="handleChangeLanguage">
+    <el-radio-group v-model="currentLanguage" size="mini" fill="#948aec" @change="handleChangeLanguage">
       <el-radio-button v-for="language of languages" :key="language" :label="$t(language)"></el-radio-button>
     </el-radio-group>
     <a href="https://github.com/louyongjiu/stars" target="_blank" class="octocat-link" rel="noopener noreferrer">
