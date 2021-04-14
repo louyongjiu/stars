@@ -35,7 +35,7 @@ const { filename, description, starredReposPerPage } = appConfig
 
 // 感谢 imsun (https://github.com/imsun) 提供获取 access token 服务
 // export const getGitstarsAccessToken = params => axios.post('https://gh-oauth.imsun.net', params)
-export const getGitstarsAccessToken = data => axios.post('https://cors-anywhere.herokuapp.com/https://github.com/login/oauth/access_token', data)
+export const getGitstarsAccessToken = data => axios.post('http://cors-anywhere.ninescloud.com/https://github.com/login/oauth/access_token', data)
 
 // https://developer.github.com/v3/users/#get-the-authenticated-user
 export const getUserInfo = () => axios.get(`/user`)
